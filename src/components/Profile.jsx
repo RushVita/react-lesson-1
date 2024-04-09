@@ -12,7 +12,7 @@ const Profile = ({
       <p>
         <img src={avatar} alt="" width={200} />
       </p>
-      <p>{username}</p>
+      <p>name{username}</p>
       <p>@{tag}</p>
       <p>{location}</p>
       <p>Followers {followers}</p>
